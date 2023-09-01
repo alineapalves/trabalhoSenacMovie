@@ -5,10 +5,10 @@ import {
     Routes
 } from "react-router-dom";
 import Filme from "../pages/filmes/filme.jsx";
-import Cadastrar from "../pages/Cadastrar";
-import NotFound from "../pages/notfound";
-import Registro from "../pages/registro";
-import Editar from '../pages/Editar';
+import Cadastrar from "./cadastrar.jsx";
+import NotFound from "./notfound";
+import Registro from "./registro";
+import Editar from './editar';
 
 
 const Root = () => {
